@@ -1,0 +1,213 @@
+/* STYLEING FOR HEADER AND FOOTER */
+
+header {
+  background: #5D70E8;
+  text-align: center;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  
+}
+
+footer {
+  background: #5D70E8;
+  text-align: center;
+}
+
+
+/* STYLING FOR NAV BAR */
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  background: white;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #5D70E8;
+}
+
+
+
+
+
+
+
+/* STYLEING FOR FORM */
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	display: block;
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Headings on form page */
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+/* ABOUT PAGE STYLING */
+
+.image-container {
+  display: flex;
+  justify-content: center;
+   margin-bottom: 40px;
+   margin-top: 40px;
+}
+
+.image-container img {
+  margin-right: 150px;
+  margin-left: 150px;
+  width: 350px; /* Adjust the width as desired */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.About-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   max-width: 600px;
+   margin: 0 auto; 
+  margin-bottom: 40px;
+   margin-top: 40px;
+}
+
+/* STYLING HOME PAGE */
+
+.Home-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 700px; /*width of container*/
+  margin:  auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+}
+
+.Home-container img {
+  width: 350px; /* Adjust image width */
+  height: auto; /* Maintain image aspect ratio */
+  margin-right: 100px; /* Space between image and text */
+  
+}
+
+.Home-container p {
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto; 
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40;
+}
+
+
+/* STYLING ROOMS PAGE */
+
+.Room-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.Room-container img {
+  width: 200px; /* Adjust the width of the image as desired */
+  margin-right: 100px; /* Add some space between the image and text */
+  width: 300px; /* Adjust the width as desired */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.Room-container p {
+
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto; 
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40;
+}
+
+/* STYLING CONTACT PAGE */
+
+.Map-container {
+  display: flex;
+  justify-content: center; /* Center align items horizontally */
+  align-items: center; /* Center align items vertically */
+  display: flex;
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.Map-container img {
+  width: 450px; /* Adjust the width of the image as desired */
+  margin-left: 30px; /* Space between the text and image */
+}
+
+.Map-container p {
+ justify-content: center;
+  align-items: center;
+   max-width: 600px;
+   margin: 0 auto; 
+  margin-bottom: 40px;
+   margin-top: 40px;
+   margin-left: 40;
+}
+
+
+.feedback-input {
+  width: 500px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+}
