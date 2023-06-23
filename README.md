@@ -18,7 +18,7 @@
 
   <header>
 	   <div class="headerdiv">
-			<img src="header Image.png" alt="Header Image">
+			<img src="Header Image.png" alt="Header Image">
 		</div>
 	</header>
   
