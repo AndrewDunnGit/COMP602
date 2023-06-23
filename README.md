@@ -45,7 +45,7 @@
   <!-- CONTAINER CONTAINING TEXT AND IMAGE ROOM 1 -->
   
 <div class="Room-container">
-  <img src="Room-Image.jpg" alt="Image">
+  <img src="Room-Image.JPG" alt="Image">
 <!-- VUE APP 1 -->
 	 <div id="app1">
 		<div class="R-info">
